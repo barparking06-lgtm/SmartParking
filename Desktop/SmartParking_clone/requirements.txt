@@ -1,0 +1,11 @@
+# requirements.txt
+# =================
+# להתקנה:  pip install -r requirements.txt
+#
+# שים לב: picamera2 ו-RPi.GPIO מגיעים מותקנים עם Raspberry Pi OS
+# אז לא צריך להתקין אותם דרך pip.
+
+opencv-python-headless    # עיבוד תמונה
+numpy                     # חישובים מתמטיים (OpenCV צריך את זה)
+requests                  # קריאות HTTP ל-Firebase
+paho-mqtt                 # תקשורת MQTT עם ESP32
